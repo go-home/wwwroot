@@ -5,7 +5,6 @@ use User\Api\UserApi;
 class IndexController extends HomeController {
 	public function _initialize() {
         parent::_initialize();
-        $this->cc = 'asdasd';
         $this->userApi = new UserApi;
     }
     public function index(){
@@ -14,8 +13,8 @@ class IndexController extends HomeController {
 		//$uid = $User->register('nmtree1','123456','bobo.xiao1@nmtree.com');
 		//$data['mobile'] = '13800138000';
 		//$info = $User->updateInfo('5','123456',$data);
-		$info = $this->userApi->info(5);
-			print_r($info);
+		//$info = $this->userApi->info(5);
+		//print_r($info);
 		/*
 		$uid = $User->login('nmtree','123456');
 		$Member = D('Member');

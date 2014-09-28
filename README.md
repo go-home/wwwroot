@@ -3,15 +3,15 @@
 ####页面说明
 <ul>
     <li>页面宽度：1210px</li>
-    <li>字号：12px</li>
+    <li>字号：14px</li>
     <li>字体：arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif</li>
-    <li>字体颜色：#8c8c8c</li>
 </ul>
 ####主色调配置
 <ul>
     <li>主背景色：#ffffff</li>
     <li>主色调：#ff4a00</li>
     <li>次色调：#10286C</li>
+    <li>字体颜色：#8c8c8c</li>
 </ul>
 ####文字连接颜色
 <ul>

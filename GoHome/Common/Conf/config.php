@@ -28,4 +28,6 @@ return array(
 	'COOKIE_PREFIX'         =>  '',      // Cookie前缀 避免冲突
 	'COOKIE_HTTPONLY'       =>  '',     // Cookie的httponly属性 3.2.2新增
 	'DB_TYPE'   			=> 'mysql', // 数据库类型
+
+
 );
