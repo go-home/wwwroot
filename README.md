@@ -1,2 +1,2 @@
-wwwroot
+www.go-home.cn
 =======
