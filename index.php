@@ -4,6 +4,6 @@ define('BUILD_DIR_SECURE', false);
 define('APP_DEBUG',True);
 //define('BUILD_LITE_FILE',False);
 define('APP_PATH','./GoHome/');
-define ('RUNTIME_PATH', './Runtime/' );
+define ('RUNTIME_PATH', '../Runtime/' );
 require './Bootstrap/Bootstrap.php';
 //require './Runtime/lite.php';
