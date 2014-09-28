@@ -14,8 +14,8 @@ class ContentReplaceBehavior extends Behavior{
         $replace = array();
         //静态资源地址
         $statics_url = C('WEB_STATICS_URL');
-        $public_url  = C('web_public_url');
-        $upload_url  = C('web_upload_url');
+        $public_url  = C('WEB_PUBLIC_URL');
+        $upload_url  = C('WEB_UPLOAD_URL');
         if ($statics_url != '') {
             $replace['__STATIC__'] = $statics_url;
         } else {

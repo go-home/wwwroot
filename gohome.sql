@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: 2014-09-28 09:12:23
+-- Generation Time: 2014-09-28 14:15:43
 -- 服务器版本： 5.1.44
 -- PHP Version: 5.3.1
 
@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `config` (
   UNIQUE KEY `uk_name` (`name`),
   KEY `type` (`type`),
   KEY `group` (`group`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=38 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=41 ;
 
 --
 -- 转存表中的数据 `config`
@@ -106,7 +106,10 @@ INSERT INTO `config` (`id`, `name`, `type`, `title`, `group`, `extra`, `remark`,
 (30, 'DATA_BACKUP_COMPRESS', 4, '数据库备份文件是否启用压缩', 4, '0:不压缩\r\n1:启用压缩', '压缩备份文件需要PHP环境支持gzopen,gzwrite函数', 1381713345, 1381729544, 1, '1', 9),
 (31, 'DATA_BACKUP_COMPRESS_LEVEL', 4, '数据库备份文件压缩级别', 4, '1:普通\r\n4:一般\r\n9:最高', '数据库备份文件的压缩级别，该配置在开启压缩时生效', 1381713408, 1381713408, 1, '9', 10),
 (35, 'REPLY_LIST_ROWS', 0, '回复列表每页条数', 2, '', '', 1386645376, 1387178083, 1, '10', 0),
-(36, 'ADMIN_ALLOW_IP', 2, '后台允许访问IP', 4, '', '多个用逗号分隔，如果不配置表示不限制IP访问', 1387165454, 1387165553, 1, '', 12);
+(36, 'ADMIN_ALLOW_IP', 2, '后台允许访问IP', 4, '', '多个用逗号分隔，如果不配置表示不限制IP访问', 1387165454, 1387165553, 1, '', 12),
+(38, 'WEB_STATICS_URL', 1, '静态文件url', 0, '', '', 0, 0, 1, 'http://statics.go-home.cn', 0),
+(39, 'WEB_PUBLIC_URL', 0, '', 0, '', '', 0, 0, 1, 'http://public.go-home.cn', 0),
+(40, 'WEB_UPLOAD_URL', 0, '', 0, '', '', 0, 0, 1, 'http://upload.go-home.cn', 0);
 
 -- --------------------------------------------------------
 
