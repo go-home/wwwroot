@@ -1,6 +1,14 @@
 www.go-home.cn
 =======
-颜色配置
+###主色调配置
 <ul>
     <li>主背景色：#ffffff</li>
+    <li>主色调：#ff4a00</li>
+    <li>次色调：#10286C</li>
 </ul>
+###文字连接颜色
+<ul>
+    <li>默认颜色：#6d6d6d</li>
+    <li>MouseOver颜色：#ff4a00</li>
+</ul>
+###图片尺寸：
